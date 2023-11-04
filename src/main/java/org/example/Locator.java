@@ -18,8 +18,8 @@ public class Locator {
 
         driver.findElement(By.cssSelector("button[type='submit']")); //1 way of select the button.
         driver.findElement(By.id("app"));
-        driver.findElement(By.linkText("OrangeHRM, Inc"));
-        driver.findElement(By.partialLinkText("OrangeHRM"));
+        driver.findElement(By.linkText("OrangeHRM, Inc")); //a tag
+        driver.findElement(By.partialLinkText("OrangeHRM"));//a tag. text can change alltime so give constant text.
         driver.findElement(By.tagName("button"));
 //        driver.findElement(By.name("username"));
 
